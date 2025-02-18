@@ -1,2 +1,2 @@
-# PruebaGithubIo
-Prueba de subir sitio web en github pages
+# Web Breaking Bad
+Ejercicio de web corporativa de la asignatura LLMM del GS de DAM
