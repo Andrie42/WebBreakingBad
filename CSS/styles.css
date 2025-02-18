@@ -1,0 +1,129 @@
+/*propiedades de index.html*/
+#body-index{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: Breaking Bad;
+    color: white;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+#portada {
+    width: 700px;
+    height: 300px;
+    border: 10px solid brown;
+    border-style: outset;
+    border-radius: 22px;
+}
+
+/*propiedades de Formulario.html*/
+#body-form {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+form{
+    width: 25%;
+    background-color: #ffae0067;
+    border-radius: 22px;
+    margin: auto;
+    padding: 1rem;
+}
+input{
+    margin-top: 1rem;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+}
+
+/*propiedades de Tabla.html*/
+#body-table{
+    background-color: #0c3e11;
+    text-align: center;
+    color: #2a2c25;
+}
+table{
+    background-color: #2a2c25;
+    margin: auto;
+    border: 5px;
+    border-spacing: 5px;
+    margin: 1rem auto;
+}
+td{
+    align-content: center;
+    width: 68px;
+    height: 68px;
+}
+.bright-green{
+    background-color: #b6db17;
+}
+.grey-green{
+    background-color: #bdc3a1;
+}
+.dark-green{
+    background-color: #627127;
+}
+.lime-green{
+    background-color: #89a518;
+}
+.light-green{
+    background-color: #d4e976;
+}
+.white-green{
+    background-color: #eef6c7;
+}
+.military-green{
+    background-color: #818d4d;
+}
+.yellow-green{
+    background-color: #c9e44b;
+}
+.lilac{
+    background-color: #aa8ecc;
+}
+.pistachio-green{
+    background-color: #c1c729;
+}
+#HS-cell{
+    background-image: url(../img/Tabla\ Periódica/hankschrader.png);
+    width: 68px;
+    height: 136px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#WW-cropped-img {
+    width: 68px;
+    height: auto;
+    clip-path: inset(0px 3px 0px 0px);
+}
+#gun-cropped-img {
+    clip-path: inset(0px 0px 0px 5px);
+}
+.table-text{
+    margin: 0px;
+}
+.table-img{
+    width: 68px;
+    height: 68px;
+    align-items: center;
+}
+
+/*propiedades compartidas*/
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 10px;
+}
+.standard-font{
+    font-family: Helvetica, Arial, sans-serif;
+}
+@font-face {
+    font-family: Breaking Bad;
+    src: url(../fonts/Breaking\ Bad.ttf);
+}
