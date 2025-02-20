@@ -8,45 +8,74 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
 </head>
+
 <body id="body-form" class="standard-font">
-    <div>
-        <h1>Breaking Bad – Que comience el juego!</h1>
-        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on">
-            <fieldset>
-            <legend>Datos personales: </legend>
-            <label for="nombre">Nombre: </label><input type="text" name="nombre" placeholder="Escribe tu nombre" required>
-            <br><label for="apellidos">Apellidos: </label><input type="text" name="apellidos" placeholder="Escribe tus apellidos" required>
-            <br><label for="email">Email: </label><input type="email" name="email" placeholder="Escribe tu dirección de email" required>
-            <br><label for="dni">DNI: </label><input type="text" name="dni" placeholder="Escribe tu DNI">
-            <br><label for="sexo">Sexo: </label><input type="radio" name="sexo" value="hombre">Hombre <input type="radio" name="sexo" value="mujer">Mujer
-            <br><label for="fnacimiento">Fecha de nacimiento: </label><input type="date" name="fnacimiento">
-            <br><label for="direccion">Dirección postal: </label><input type="text" name="direccion" placeholder="Calle, nº, piso, CP y ciudad">
-            </fieldset>
-            <fieldset>
-                <legend>Tu personaje favorito:</legend>
-                <select name="personajes">
-                    <option value="Jessie Pinkman">Jessie Pinkman</option>
-                    <option value="Walter White">Walter White</option>
-                    <option value="Saul Goodman">Saul Goodman</option>
-                    <option value="Gustavo Fring">Gustavo Fring</option>
-                    <option value="Pollos Hermanos">Pollos Hermanos</option>
-                    <option value="Otros personajes">Otros personajes</option>
-                </select>
-                
-            </fieldset>
-            <fieldset>
-                <legend>Comentarios:</legend>
-                <textarea name="comentarios" maxlength="250"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>Adjunta el archivo que desees:</legend>
-                <input class="standard-font" type="file" name="adjunto">
-            </fieldset>
-            <br><input class="standard-font" type="submit" value="Enviar"><input class="standard-font" type="reset" value="Borrar">
+    <h1 id="titulo-formulario">Breaking Bad – Que comience el juego!</h1>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Datos personales:</legend>
 
+            <div class="block-display">
+                <label for="nombre">Nombre:</label><input type="text" name="nombre" placeholder="Escribe tu nombre"
+                    required>
+            </div>
 
+            <div class="block-display">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" placeholder="Escribe tus apellidos" required>
+            </div>
 
-        </form>
-    </div>
-    
+            <div class="block-display">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Escribe tu dirección de email" required>
+            </div>
+
+            <div class="block-display">
+                <label for="dni">DNI:</label>
+                <input type="text" name="dni" placeholder="Escribe tu DNI">
+            </div>
+
+            <div class="block-display">
+                <label for="sexo">Sexo:</label>
+                <div id="seleccionar-sexo">
+                    <input type="radio" name="sexo" value="hombre"><label for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" value="mujer"><label for="mujer">Mujer</label>
+                </div>
+            </div>
+
+            <div class="block-display">
+                <label for="fnacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fnacimiento">
+            </div>
+
+            <div class="block-display">
+                <label for="direccion">Dirección postal:</label>
+                <input type="text" name="direccion" placeholder="Calle, nº, piso, CP y ciudad">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Tu personaje favorito:</legend>
+            <select name="personajes">
+                <option value="Jessie Pinkman">Jessie Pinkman</option>
+                <option value="Walter White">Walter White</option>
+                <option value="Saul Goodman">Saul Goodman</option>
+                <option value="Gustavo Fring">Gustavo Fring</option>
+                <option value="Pollos Hermanos">Pollos Hermanos</option>
+                <option value="Otros personajes">Otros personajes</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend class="block-display">Comentarios:</legend>
+            <textarea class="block-display" name="comentarios" maxlength="250"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend class="block-display">Adjunta el archivo que desees:</legend>
+            <input class="standard-font block-display" type="file" name="adjunto">
+        </fieldset>
+        <div class="block-display">
+            <input class="standard-font boton-amarillo" type="submit" value="Enviar"><input
+                class="standard-font boton-amarillo" type="reset" value="Borrar">
+        </div>
+    </form>
+
 </body>

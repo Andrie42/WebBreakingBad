@@ -1,15 +1,17 @@
 /*propiedades de index.html*/
-#body-index{
+#body-index {
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     text-align: center;
     font-family: Breaking Bad;
     color: white;
 }
-#logo{
+
+#logo {
     width: 200px;
     height: 200px;
 }
+
 #portada {
     width: 700px;
     height: 300px;
@@ -22,107 +24,165 @@
 #body-form {
     background-image: url(../img/fondo.jpg);
     background-size: cover;
-    text-align: center;
-    align-content: center;
     color: white;
 }
-form{
-    width: 25%;
+
+#titulo-formulario {
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    height: auto;
     background-color: #ffae0067;
     border-radius: 22px;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
+    justify-content: center;
 }
-input{
-    margin-top: 1rem;
+
+.block-display {
+    display: block;
 }
-textarea{
-    width: 100%;
-    height: 100%;
+
+.block-display label {
+    display: inline-block;
+    width: 5rem;
+    margin: 0.5rem 0;
+}
+
+#seleccionar-sexo {
+    display: inline;
+}
+
+.boton-amarillo {
+    background-color: #d79b02;
+    color: white;
+    border-radius: 5px;
+    border-color: #c68e00;
+    width: 100px;
+    display: inline-block;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+input[type=date] {
+    margin-left: 0.5rem;
+}
+
+input[type=radio] {
+    margin-left: 0;
+}
+
+textarea {
+    width: 90%;
+    margin: auto;
+    margin-left: 0;
+    resize: none;
 }
 
 /*propiedades de Tabla.html*/
-#body-table{
+#body-table {
     background-color: #0c3e11;
     text-align: center;
     color: #2a2c25;
 }
-table{
+
+table {
     background-color: #2a2c25;
     margin: auto;
     border: 5px;
     border-spacing: 5px;
     margin: 1rem auto;
 }
-td{
+
+td {
     align-content: center;
     width: 68px;
     height: 68px;
 }
-.bright-green{
+
+.bright-green {
     background-color: #b6db17;
 }
-.grey-green{
+
+.grey-green {
     background-color: #bdc3a1;
 }
-.dark-green{
+
+.dark-green {
     background-color: #627127;
 }
-.lime-green{
+
+.lime-green {
     background-color: #89a518;
 }
-.light-green{
+
+.light-green {
     background-color: #d4e976;
 }
-.white-green{
+
+.white-green {
     background-color: #eef6c7;
 }
-.military-green{
+
+.military-green {
     background-color: #818d4d;
 }
-.yellow-green{
+
+.yellow-green {
     background-color: #c9e44b;
 }
-.lilac{
+
+.lilac {
     background-color: #aa8ecc;
 }
-.pistachio-green{
+
+.pistachio-green {
     background-color: #c1c729;
 }
-#HS-cell{
+
+#HS-cell {
     background-image: url(../img/Tabla\ Periódica/hankschrader.png);
     width: 68px;
     height: 136px;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #WW-cropped-img {
     width: 68px;
     height: auto;
     clip-path: inset(0px 3px 0px 0px);
 }
+
 #gun-cropped-img {
     clip-path: inset(0px 0px 0px 5px);
 }
-.table-text{
+
+.table-text {
     margin: 0px;
 }
-.table-img{
+
+.table-img {
     width: 68px;
     height: 68px;
     align-items: center;
 }
 
 /*propiedades compartidas*/
-h1{
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 9px;
 }
-.standard-font{
+
+.standard-font {
     font-family: Helvetica, Arial, sans-serif;
 }
+
 @font-face {
     font-family: Breaking Bad;
     src: url(../fonts/Breaking\ Bad.ttf);
