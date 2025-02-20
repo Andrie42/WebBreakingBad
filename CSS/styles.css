@@ -98,8 +98,8 @@ table {
 
 td {
     align-content: center;
-    width: 68px;
-    height: 68px;
+    width: 75px;
+    height: 75px;
 }
 
 .bright-green {
@@ -144,14 +144,15 @@ td {
 
 #HS-cell {
     background-image: url(../img/Tabla\ Periódica/hankschrader.png);
-    width: 68px;
-    height: 136px;
+    background-size: cover;
+    /* width: 72px;
+    height: 144px; */
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #WW-cropped-img {
-    width: 68px;
+    width: 75px;
     height: auto;
     clip-path: inset(0px 3px 0px 0px);
 }
@@ -165,8 +166,8 @@ td {
 }
 
 .table-img {
-    width: 68px;
-    height: 68px;
+    width: 75px;
+    height: 75px;
     align-items: center;
 }
 
@@ -176,7 +177,7 @@ h1 {
 }
 
 p {
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .standard-font {
