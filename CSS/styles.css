@@ -1,6 +1,7 @@
 /*propiedades de index.html*/
 #body-index {
     background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     font-family: Breaking Bad;
